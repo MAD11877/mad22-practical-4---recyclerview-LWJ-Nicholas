@@ -17,13 +17,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //get the stored data
         Intent intent = getIntent();
-        String randInt = intent.getStringExtra("randInt");
+        User student1 = (User) intent.getSerializableExtra("user");
 
         //Creating a new user object
-        User student1 = new User("Nicholas Lee" + "\n" + randInt,
-                "Second year IT student at Ngee Ann Polytechnic, loves to play chess and talk to plants during his free time.",
-                10222425,
-                false);
+//        User student1 = new User("Nicholas Lee" + "\n" + randInt,
+//                "Second year IT student at Ngee Ann Polytechnic, loves to play chess and talk to plants during his free time.",
+//                10222425,
+//                false);
 
         //Retrieve name from user
         //Display name

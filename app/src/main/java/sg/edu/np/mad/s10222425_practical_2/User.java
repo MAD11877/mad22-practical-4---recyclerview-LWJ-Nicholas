@@ -1,6 +1,11 @@
 package sg.edu.np.mad.s10222425_practical_2;
 
-public class User {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
+
+public class User implements Serializable {
     String name;
     String description;
     int id;
@@ -12,4 +17,5 @@ public class User {
         id = num;
         followed = follow;
     }
+
 }
