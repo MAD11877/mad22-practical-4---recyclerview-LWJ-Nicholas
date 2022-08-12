@@ -63,7 +63,7 @@ public class ListAdapter extends RecyclerView.Adapter {
             viewHolder7.descView.setText(userList.get(position).description);
             viewHolder7.imageView.setImageResource(R.drawable.ic_launcher_background);
             viewHolder7.imageView7.setImageResource(R.drawable.ic_launcher_background);
-            viewHolder7.imageView.setOnClickListener(new View.OnClickListener() {
+            viewHolder7.imageView7.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(context);
@@ -93,7 +93,7 @@ public class ListAdapter extends RecyclerView.Adapter {
             viewHolder.nameView.setText(userList.get(position).name);
             viewHolder.descView.setText(userList.get(position).description);
             viewHolder.imageView.setImageResource(R.drawable.ic_launcher_background);
-            viewHolder.imageView7.setOnClickListener(new View.OnClickListener() {
+            viewHolder.imageView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(context);
